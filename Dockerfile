@@ -8,4 +8,4 @@ RUN apt-get update \
  && pip install --upgrade pip \
  && pip install kindel==0.4.5
 
-ENTRYPOINT /bin/bash
+ENTRYPOINT kindel 
